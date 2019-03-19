@@ -1,0 +1,192 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #ff8000;
+  background-image: url("media/img_hero.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  /* to x-axis and y-axis */
+  background-size: 100% auto;
+
+}
+
+.logo-container {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding-right: 15px;
+}
+
+.nav-list {
+  overflow: hidden;
+  background-color: #4F4D53;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 46px;
+}
+
+.nav-item {
+  margin-left: 16px;
+  margin-right: 16px;
+
+}
+
+.nav-link {
+  color: #fff;
+  letter-spacing: 0.07em;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.photo {
+  z-index: 1;
+}
+
+.top-container {
+  padding-top: 3rem;
+}
+
+.logo {
+  padding: none;
+  border-radius: 0;
+  padding-right: 20px;
+}
+
+.heading {
+  padding-top: 20px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+}
+
+h1.heading-gray {
+  position: relative;
+  font-size: 100px;
+  color: #4F4D53;
+  font-weight: 900px;
+}
+
+.main-content {
+  max-width: 80%;
+  align-content: center;
+  height: 10em;
+  position: relative;
+}
+
+h2.heading-orange {
+  display: block;
+  margin-top: 30px;
+  font-size: 64px;
+  color: #E8BE02;
+  font-weight: 900px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #E8BE02;
+  font-weight: 900px;
+}
+
+h4 {
+font-size: 14px;
+color: #FFFFFF;
+font-weight: 400;
+}
+
+p {
+  width: 100%;
+  padding: 0 10rem;
+  font-size: 18px;
+  color: #4F4D53;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.head-shots {
+  display: inline-block;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  padding: 0 23px;
+  width: 150px;
+}
+
+.speaker-image {
+  border-radius: 50%;
+  max-width: 100px;
+}
+
+.speaker-email {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #979797;
+}
+
+.speaker-name {
+  padding-top: 20px;
+  color: #E8BE02;
+}
+
+footer {
+  background-color: #4F4D53;
+}
+
+.footer-heading {
+  font-size: 13px;
+  color: #E8BE02;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: left;
+}
+
+@media (max-width: 750px) {
+  h1.heading-gray {
+    font-size: 30px;
+    color: white;
+    margin-top: 2rem;
+	}
+
+  h2.heading-orange {
+    margin-top: 20px;
+    font-size: 28px;
+  }
+
+  p {
+    padding: 0 3rem;
+  }
+
+  li {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+	}
+
+  p {
+    font-size: 16px;
+  }
+
+
+
+}
